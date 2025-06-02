@@ -39,6 +39,17 @@ li a{
 .bg-dark{
     background-color: #bd74c7;
 }
+/*TEXTO GENERAL*/
+.textomain{
+    font-size: small;
+    text-align: center;
+}
+.textomain h2{
+    font-weight: normal;
+}
+.textomain h3{
+    font-weight: normal;
+}
 /*INDEX*/
 .mainindex{
     display: flex;
@@ -51,17 +62,6 @@ li a{
     height: 700px;
 }
 
-.textomain{
-    font-size: small;
-    text-align: center;
-}
-.textomain h2{
-    font-weight: normal;
-}
-.textomain h3{
-    font-weight: normal;
-}
-
 /*Paginas Productos*/
 /*GRID PRODUCTOS*/
 .contenedor-grid{
@@ -69,9 +69,12 @@ li a{
     grid-template-areas: 
     "texto-cookies-torta-cupcake texto-cookies-torta-cupcake texto-cookies-torta-cupcake"
     "cookies1-tortaferrero-cupcakefruta cookies2-tortapeanut-cupcakemargarita cookies3-tortafrutilla-cupcakeperlas"
-    "cookies4-tortaferrero1-cupcakeunicornio cookies5-tortapeanut1-cupcakeverdes cookies6-tortafrutilla1-cupcakechoco";
+    "parrafocookiechips parrafocookiebrownie parrafocookiehabibi"
+    "cookies4-tortaferrero1-cupcakeunicornio cookies5-tortapeanut1-cupcakeverdes cookies6-tortafrutilla1-cupcakechoco"
+    "parrafocookieredvelvet parrafocookieferrero parrafocookiecaramelo";
+    
     grid-template-columns: repeat(3, 20%);
-    grid-template-rows: 30px repeat(2, 450px);
+    grid-template-rows: 30px repeat (2, 450px);
     
     justify-content: space-evenly;
     align-items: center;
@@ -107,6 +110,7 @@ li a{
     width: 300px;
 }
 
+/*Estilo PRODUCTOS*/
 /*COOKIES*/
 .paginacookies{
     background-color: #FBF3B9;
@@ -206,7 +210,6 @@ li a{
 .diseñofooter{
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
     margin: 10px; 
 }
 .diseñofooter a{
@@ -215,13 +218,15 @@ li a{
 .diseñofooter h3{
     font-size: medium;
     font-weight: normal;
+    align-content: center;
 }
 
-/*MEDIA QUERY*/
-/*INDEX*/
+    /*MEDIA QUERY*/
+    /*NAV*/
 @media (max-width: 600px){
     .menu-hamburguesa{
         visibility: visible;
+        justify-content: center;
 
     }
     .navbar-toggler{
@@ -231,50 +236,70 @@ li a{
         display: none;
     }
 }
-
-@media (min-width: 600px){
-    .menu-hamburguesa{
+@media (min-width: 600px) {
+      .menu-hamburguesa{
         display: none;
     }
     .menu{
         visibility: visible;
     }
 }
-@media (min-width: 900px) and (max-width: 1240px){
-    .contenedor-grid{
-        display: grid;
-        grid-template-areas: 
-        "texto-cookies-torta-cupcake"
-        "cookies1-tortaferrero-cupcakefruta cookies2-tortapeanut-cupcakemargarita"
-        "cookies3-tortafrutilla-cupcakeperlas cookies4-tortaferrero1-cupcakeunicornio" 
-        "cookies5-tortapeanut1-cupcakeverdes cookies6-tortafrutilla1-cupcakechoco";
 
-        justify-content: center;
-        align-items: center;
-        }
-        
-        .texto-cookies-torta-cupcake{
-            visibility: hidden;
-        }
-    }
-
-@media (max-width: 1240px){
-    .contenedor-grid{
+    /*PRODUCTOS MEDIAQUERY*/
+@media (max-width: 600px){
+     .contenedor-grid{
         display: grid;
         grid-template-areas: 
         "texto-cookies-torta-cupcake"
         "cookies1-tortaferrero-cupcakefruta"
+        "parrafocookiechips"
         "cookies2-tortapeanut-cupcakemargarita"
+        "parrafocookiebrownie"
         "cookies3-tortafrutilla-cupcakeperlas"
+        "parrafocookiehabibi"
         "cookies4-tortaferrero1-cupcakeunicornio" 
-        "cookies5-tortapeanut1-cupcakeverdes" 
-        "cookies6-tortafrutilla1-cupcakechoco";
-
-        justify-content: center;
-        align-items: center;
-        }
+        "parrafocookieredvelvet"
+        "cookies5-tortapeanut1-cupcakeverdes"
+        "parrafocookieferrero"
+        "cookies6-tortafrutilla1-cupcakechoco"
+        "parrafocookiecaramelo";
+        grid-template-columns: 1fr;
         
-        .texto-cookies-torta-cupcake{
-            visibility: hidden;
-        }
+        justify-items: center;
     }
+    .parrafocookiechips{
+            text-align: start;
+    }
+}
+        
+@media (min-width: 600px) and (max-width: 1100px) {
+    .contenedor-grid{
+        display: grid;
+        grid-template-areas: 
+        "texto-cookies-torta-cupcake texto-cookies-torta-cupcake"
+        "cookies1-tortaferrero-cupcakefruta cookies2-tortapeanut-cupcakemargarita"
+        "parrafocookiechips parrafocookiebrownie"
+        "cookies3-tortafrutilla-cupcakeperlas cookies4-tortaferrero1-cupcakeunicornio" 
+        "parrafocookiehabibi parrafocookieredvelvet"
+        "cookies5-tortapeanut1-cupcakeverdes cookies6-tortafrutilla1-cupcakechoco"
+        "parrafocookieferrero parrafocookiecaramelo";
+        grid-template-columns: 50% 50%;
+
+        justify-items: center;
+    }    
+}
+
+  /*FOOTER MEDIAQUERY*/
+  @media (max-width: 600px){
+    .flexfooter{
+        font-size: 15px;
+        justify-content: space-around;
+    }
+    .diseñofooter{
+        margin: 0px;
+        align-items: center;
+    }
+    .diseñofooter a{
+        justify-content: space-between;
+    }
+}
