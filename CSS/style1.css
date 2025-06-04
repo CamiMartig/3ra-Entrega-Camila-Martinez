@@ -1,0 +1,241 @@
+/*INDEX*/
+.mainindex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: url(../images/CakeCupcake.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+}
+.mainindex .textomain {
+  font-size: small;
+  text-align: center;
+}
+.mainindex h2 {
+  font-weight: normal;
+}
+.mainindex h3 {
+  font-weight: normal;
+}
+
+.paginatortas, .textomain, .contenedor-grid {
+  background-color: #a8a0f3;
+  font-size: small;
+  text-align: center;
+  display: grid;
+  grid-template-areas: "texto-cookies-torta-cupcake texto-cookies-torta-cupcake texto-cookies-torta-cupcake" "cookies1-tortaferrero-cupcakefruta cookies2-tortapeanut-cupcakemargarita cookies3-tortafrutilla-cupcakeperlas" "parrafocookiechips parrafocookiebrownie parrafocookiehabibi" "cookies4-tortaferrero1-cupcakeunicornio cookies5-tortapeanut1-cupcakeverdes cookies6-tortafrutilla1-cupcakechoco" "parrafocookieredvelvet parrafocookieferrero parrafocookiecaramelo";
+  grid-template-columns: repeat(3, 20%);
+  grid-template-rows: 30px repeat 2, 450px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.paginatortas img, .textomain img, .contenedor-grid img {
+  border: solid;
+  border-color: #978df2;
+  border-radius: 30px;
+}
+.paginatortas h2, .textomain h2, .contenedor-grid h2 {
+  font-weight: normal;
+}
+.paginatortas h3, .textomain h3, .contenedor-grid h3 {
+  font-weight: normal;
+}
+.paginatortas .texto-cookies-torta-cupcake, .textomain .texto-cookies-torta-cupcake, .contenedor-grid .texto-cookies-torta-cupcake {
+  grid-area: texto-cookies-torta-cupcake;
+  margin-top: 50px;
+}
+.paginatortas .cookies1-tortaferrero-cupcakefruta, .textomain .cookies1-tortaferrero-cupcakefruta, .contenedor-grid .cookies1-tortaferrero-cupcakefruta {
+  grid-area: cookies1-tortaferrero-cupcakefruta;
+  width: 300px;
+}
+.paginatortas .cookies2-tortapeanut-cupcakemargarita, .textomain .cookies2-tortapeanut-cupcakemargarita, .contenedor-grid .cookies2-tortapeanut-cupcakemargarita {
+  grid-area: cookies2-tortapeanut-cupcakemargarita;
+  width: 300px;
+}
+.paginatortas .cookies3-tortafrutilla-cupcakeperlas, .textomain .cookies3-tortafrutilla-cupcakeperlas, .contenedor-grid .cookies3-tortafrutilla-cupcakeperlas {
+  grid-area: cookies3-tortafrutilla-cupcakeperlas;
+  width: 300px;
+}
+.paginatortas .cookies4-tortaferrero1-cupcakeunicornio, .textomain .cookies4-tortaferrero1-cupcakeunicornio, .contenedor-grid .cookies4-tortaferrero1-cupcakeunicornio {
+  grid-area: cookies4-tortaferrero1-cupcakeunicornio;
+  width: 300px;
+}
+.paginatortas .cookies5-tortapeanut1-cupcakeverdes, .textomain .cookies5-tortapeanut1-cupcakeverdes, .contenedor-grid .cookies5-tortapeanut1-cupcakeverdes {
+  grid-area: cookies5-tortapeanut1-cupcakeverdes;
+  width: 300px;
+}
+.paginatortas .cookies6-tortafrutilla1-cupcakechoco, .textomain .cookies6-tortafrutilla1-cupcakechoco, .contenedor-grid .cookies6-tortafrutilla1-cupcakechoco {
+  grid-area: cookies6-tortafrutilla1-cupcakechoco;
+  width: 300px;
+}
+
+.paginacookies, .textomain, .contenedor-grid {
+  background-color: #a8a0f3;
+  font-size: small;
+  text-align: center;
+  display: grid;
+  grid-template-areas: "texto-cookies-torta-cupcake texto-cookies-torta-cupcake texto-cookies-torta-cupcake" "cookies1-tortaferrero-cupcakefruta cookies2-tortapeanut-cupcakemargarita cookies3-tortafrutilla-cupcakeperlas" "parrafocookiechips parrafocookiebrownie parrafocookiehabibi" "cookies4-tortaferrero1-cupcakeunicornio cookies5-tortapeanut1-cupcakeverdes cookies6-tortafrutilla1-cupcakechoco" "parrafocookieredvelvet parrafocookieferrero parrafocookiecaramelo";
+  grid-template-columns: repeat(3, 20%);
+  grid-template-rows: 30px repeat 2, 450px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.paginacookies img, .textomain img, .contenedor-grid img {
+  border: solid;
+  border-color: #978df2;
+  border-radius: 30px;
+}
+.paginacookies h2, .textomain h2, .contenedor-grid h2 {
+  font-weight: normal;
+}
+.paginacookies h3, .textomain h3, .contenedor-grid h3 {
+  font-weight: normal;
+}
+.paginacookies .texto-cookies-torta-cupcake, .textomain .texto-cookies-torta-cupcake, .contenedor-grid .texto-cookies-torta-cupcake {
+  grid-area: texto-cookies-torta-cupcake;
+  margin-top: 50px;
+}
+.paginacookies .cookies1-tortaferrero-cupcakefruta, .textomain .cookies1-tortaferrero-cupcakefruta, .contenedor-grid .cookies1-tortaferrero-cupcakefruta {
+  grid-area: cookies1-tortaferrero-cupcakefruta;
+  width: 300px;
+}
+.paginacookies .cookies2-tortapeanut-cupcakemargarita, .textomain .cookies2-tortapeanut-cupcakemargarita, .contenedor-grid .cookies2-tortapeanut-cupcakemargarita {
+  grid-area: cookies2-tortapeanut-cupcakemargarita;
+  width: 300px;
+}
+.paginacookies .cookies3-tortafrutilla-cupcakeperlas, .textomain .cookies3-tortafrutilla-cupcakeperlas, .contenedor-grid .cookies3-tortafrutilla-cupcakeperlas {
+  grid-area: cookies3-tortafrutilla-cupcakeperlas;
+  width: 300px;
+}
+.paginacookies .cookies4-tortaferrero1-cupcakeunicornio, .textomain .cookies4-tortaferrero1-cupcakeunicornio, .contenedor-grid .cookies4-tortaferrero1-cupcakeunicornio {
+  grid-area: cookies4-tortaferrero1-cupcakeunicornio;
+  width: 300px;
+}
+.paginacookies .cookies5-tortapeanut1-cupcakeverdes, .textomain .cookies5-tortapeanut1-cupcakeverdes, .contenedor-grid .cookies5-tortapeanut1-cupcakeverdes {
+  grid-area: cookies5-tortapeanut1-cupcakeverdes;
+  width: 300px;
+}
+.paginacookies .cookies6-tortafrutilla1-cupcakechoco, .textomain .cookies6-tortafrutilla1-cupcakechoco, .contenedor-grid .cookies6-tortafrutilla1-cupcakechoco {
+  grid-area: cookies6-tortafrutilla1-cupcakechoco;
+  width: 300px;
+}
+
+.paginacupcakes, .textomain, .contenedor-grid {
+  background-color: #a8a0f3;
+  font-size: small;
+  text-align: center;
+  display: grid;
+  grid-template-areas: "texto-cookies-torta-cupcake texto-cookies-torta-cupcake texto-cookies-torta-cupcake" "cookies1-tortaferrero-cupcakefruta cookies2-tortapeanut-cupcakemargarita cookies3-tortafrutilla-cupcakeperlas" "parrafocookiechips parrafocookiebrownie parrafocookiehabibi" "cookies4-tortaferrero1-cupcakeunicornio cookies5-tortapeanut1-cupcakeverdes cookies6-tortafrutilla1-cupcakechoco" "parrafocookieredvelvet parrafocookieferrero parrafocookiecaramelo";
+  grid-template-columns: repeat(3, 20%);
+  grid-template-rows: 30px repeat 2, 450px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.paginacupcakes img, .textomain img, .contenedor-grid img {
+  border: solid;
+  border-color: #978df2;
+  border-radius: 30px;
+}
+.paginacupcakes h2, .textomain h2, .contenedor-grid h2 {
+  font-weight: normal;
+}
+.paginacupcakes h3, .textomain h3, .contenedor-grid h3 {
+  font-weight: normal;
+}
+.paginacupcakes .texto-cookies-torta-cupcake, .textomain .texto-cookies-torta-cupcake, .contenedor-grid .texto-cookies-torta-cupcake {
+  grid-area: texto-cookies-torta-cupcake;
+  margin-top: 50px;
+}
+.paginacupcakes .cookies1-tortaferrero-cupcakefruta, .textomain .cookies1-tortaferrero-cupcakefruta, .contenedor-grid .cookies1-tortaferrero-cupcakefruta {
+  grid-area: cookies1-tortaferrero-cupcakefruta;
+  width: 300px;
+}
+.paginacupcakes .cookies2-tortapeanut-cupcakemargarita, .textomain .cookies2-tortapeanut-cupcakemargarita, .contenedor-grid .cookies2-tortapeanut-cupcakemargarita {
+  grid-area: cookies2-tortapeanut-cupcakemargarita;
+  width: 300px;
+}
+.paginacupcakes .cookies3-tortafrutilla-cupcakeperlas, .textomain .cookies3-tortafrutilla-cupcakeperlas, .contenedor-grid .cookies3-tortafrutilla-cupcakeperlas {
+  grid-area: cookies3-tortafrutilla-cupcakeperlas;
+  width: 300px;
+}
+.paginacupcakes .cookies4-tortaferrero1-cupcakeunicornio, .textomain .cookies4-tortaferrero1-cupcakeunicornio, .contenedor-grid .cookies4-tortaferrero1-cupcakeunicornio {
+  grid-area: cookies4-tortaferrero1-cupcakeunicornio;
+  width: 300px;
+}
+.paginacupcakes .cookies5-tortapeanut1-cupcakeverdes, .textomain .cookies5-tortapeanut1-cupcakeverdes, .contenedor-grid .cookies5-tortapeanut1-cupcakeverdes {
+  grid-area: cookies5-tortapeanut1-cupcakeverdes;
+  width: 300px;
+}
+.paginacupcakes .cookies6-tortafrutilla1-cupcakechoco, .textomain .cookies6-tortafrutilla1-cupcakechoco, .contenedor-grid .cookies6-tortafrutilla1-cupcakechoco {
+  grid-area: cookies6-tortafrutilla1-cupcakechoco;
+  width: 300px;
+}
+
+.sobremi {
+  background-color: #f0cffa;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+.sobremi .sobremidisenio {
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+}
+.sobremi .sobremidisenio img {
+  height: 500px;
+  margin: 10px;
+  background-color: #e8b6f7;
+  border-radius: 30px;
+}
+
+.paginacontacto {
+  height: 600px;
+  background-color: #B7B1F2;
+  padding: 2%;
+  display: flex;
+  gap: 100px;
+}
+.paginacontacto h2 {
+  font-weight: normal;
+}
+.paginacontacto .formulario {
+  padding: 20px;
+  margin-left: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.paginacontacto .formulario input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.paginacontacto .formulario textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 100px;
+}
+.paginacontacto .formulario button {
+  justify-items: center;
+}
+.paginacontacto .formulario label {
+  display: block;
+  margin-top: 10px;
+}
+.paginacontacto .fotocontacto {
+  width: 800px;
+  border-radius: 10px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=style1.css.map */

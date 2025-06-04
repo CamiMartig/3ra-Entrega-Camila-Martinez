@@ -1,0 +1,58 @@
+.paginacookies, .textomain, .contenedor-grid{
+    background-color:#a8a0f3;
+    img{
+        border: solid;
+        border-color: #978df2;
+        border-radius: 30px;
+    }
+    font-size: small;
+    text-align: center;
+    h2{
+        font-weight: normal;
+    }
+    h3{
+        font-weight: normal;
+    }
+    display: grid;
+    grid-template-areas: 
+    "texto-cookies-torta-cupcake texto-cookies-torta-cupcake texto-cookies-torta-cupcake"
+    "cookies1-tortaferrero-cupcakefruta cookies2-tortapeanut-cupcakemargarita cookies3-tortafrutilla-cupcakeperlas"
+    "parrafocookiechips parrafocookiebrownie parrafocookiehabibi"
+    "cookies4-tortaferrero1-cupcakeunicornio cookies5-tortapeanut1-cupcakeverdes cookies6-tortafrutilla1-cupcakechoco"
+    "parrafocookieredvelvet parrafocookieferrero parrafocookiecaramelo";
+        
+    grid-template-columns: repeat(3, 20%);
+    grid-template-rows: 30px repeat (2, 450px);
+        
+    justify-content: space-evenly;
+    align-items: center;
+    
+    .texto-cookies-torta-cupcake{
+    grid-area: texto-cookies-torta-cupcake;
+    margin-top: 50px;   
+    }
+    .cookies1-tortaferrero-cupcakefruta{
+        grid-area: cookies1-tortaferrero-cupcakefruta;
+        width: 300px;
+    }
+    .cookies2-tortapeanut-cupcakemargarita{
+        grid-area: cookies2-tortapeanut-cupcakemargarita;
+        width: 300px;
+    }
+    .cookies3-tortafrutilla-cupcakeperlas{
+        grid-area: cookies3-tortafrutilla-cupcakeperlas;
+        width: 300px;
+    }
+    .cookies4-tortaferrero1-cupcakeunicornio{
+        grid-area: cookies4-tortaferrero1-cupcakeunicornio;
+        width: 300px;
+    }
+    .cookies5-tortapeanut1-cupcakeverdes{
+        grid-area: cookies5-tortapeanut1-cupcakeverdes;
+        width: 300px;
+    }
+    .cookies6-tortafrutilla1-cupcakechoco{
+        grid-area: cookies6-tortafrutilla1-cupcakechoco;
+        width: 300px;
+    }
+}
