@@ -145,17 +145,16 @@ li a{
     display: flex; 
     text-align: center;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .sobremidiseño{
     justify-content: center;
     align-items: center;
     width: 550px;
-    border-radius: 30px;
 }
 .sobremidiseño img{
     height: 500px;
-    margin-top: 30px;
+    margin: 10px;
     background-color: #e8b6f7;
     border-radius: 30px;   
 }
@@ -237,7 +236,7 @@ li a{
     }
 }
 @media (min-width: 600px) {
-      .menu-hamburguesa{
+    .menu-hamburguesa{
         display: none;
     }
     .menu{
@@ -247,7 +246,7 @@ li a{
 
     /*PRODUCTOS MEDIAQUERY*/
 @media (max-width: 600px){
-     .contenedor-grid{
+    .contenedor-grid{
         display: grid;
         grid-template-areas: 
         "texto-cookies-torta-cupcake"
@@ -268,7 +267,7 @@ li a{
         justify-items: center;
     }
     .parrafocookiechips{
-            text-align: start;
+        text-align: start;
     }
 }
         
@@ -288,9 +287,64 @@ li a{
         justify-items: center;
     }    
 }
+    /*SOBRE MI MEDIAQUERY*/
+@media (max-width: 480px){
+    .sobremi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sobremidiseño{
+        display: flex;
+        margin-top: 20px;
+        width: 300px;
+    }
+    .sobremidiseño img{
+        height: 300px;
+        align-items: center;
+    }
+    .sobremimediaquery{
+        margin-top: 10px;
+        align-items: center;
+    }
+       .sobremihidden{
+        display: none; 
+    }
+}  
 
+@media (min-width: 480px) and (max-width: 850px){
+    .sobremi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sobremidiseño{
+        margin: 10px;
+        justify-items: center;
+    }
+    .sobremidiseño img{
+        height: 300px;
+    }
+    .sobremimediaquery{
+        margin-top: 10px;
+        align-items: center;
+        width: 400px;
+    }
+    .sobremihidden{
+        display: none; 
+    }
+} 
+/*
+@media (min-width: 480px) and (max-width: 1100px){
+    .sobremidiseño img{
+        height: 400px;
+    }
+    .sobremihidden{
+        display: none; 
+    }
+} */
   /*FOOTER MEDIAQUERY*/
-  @media (max-width: 600px){
+@media (max-width: 600px){
     .flexfooter{
         font-size: 15px;
         justify-content: space-around;
@@ -301,5 +355,10 @@ li a{
     }
     .diseñofooter a{
         justify-content: space-between;
+    }
+}
+@media (max-width: 1100px){
+    .flexfooter{
+        height: 90px;
     }
 }
