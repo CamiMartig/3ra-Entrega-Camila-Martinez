@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=>, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style1.css">
     <title>Cupcakes</title>
 </head>
 <body>
@@ -27,34 +27,36 @@
             </ul>
         </nav>
         <div class="menu-hamburguesa">
-            <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
-                <div class="bg-dark p-4">
-                    <h5 class="text-body-emphasis h4">Inicio</h5>
-                    <h5 class="text-body-emphasis h4">Tortas</h5>
-                    <h5 class="text-body-emphasis h4">Cookies</h5>
-                    <h5 class="text-body-emphasis h4">Cupcakes</h5>
-                    <h5 class="text-body-emphasis h4">Sobre Mi</h5>
-                    <h5 class="text-body-emphasis h4">Contacto</h5>
-                </div>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Menu
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../index.html">Inicio</a></li>
+                    <li><a class="dropdown-item" href="./tortas.html">Tortas</a></li>
+                    <li><a class="dropdown-item" href="./cookies.html">Cookies</a></li>
+                    <li><a class="dropdown-item" href="#">Cupcakes</a></li>
+                    <li><a class="dropdown-item" href="./sobremi.html">Sobre Mi</a></li>
+                    <li><a class="dropdown-item" href="./contacto.html">Contacto</a></li>
+                </ul>
             </div>
-            <nav class="navbar navbar-dark bg-dark">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-            </nav>
         </div>
     </header>
     <main>
         <section class="paginacupcakes textomain contenedor-grid">
             <h2 class="texto-cookies-torta-cupcake">¿Quieres diseñar tus cupcakes? Explora nuestras opciones que mejor se adapte a tu evento.</h2> 
-            <img class="cookies1-tortaferrero-cupcakefruta" src="../images/cupcakefruta.jpeg">
-            <img class="cookies2-tortapeanut-cupcakemargarita" src="../images/cupcakemargarita.jpeg">
-            <img class="cookies3-tortafrutilla-cupcakeperlas" src="../images/cupcakeperlas.jpeg">
-            <img class="cookies4-tortaferrero1-cupcakeunicornio" src="../images/cupcakeunicornio.jpeg">
-            <img class="cookies5-tortapeanut1-cupcakeverdes" src="../images/cupcakeverdes.jpeg">
-            <img class="cookies6-tortafrutilla1-cupcakechoco" src="../images/cupcakechoco.jpeg">
+            <img class="producto1 animacionProductos" src="../images/cupcakefruta.jpeg">
+            <p class="parrafoproducto1">Box de Diferentes Sabores</p>
+            <img class="producto2 animacionProductos" src="../images/cupcakemargarita.jpeg">
+            <p class="parrafoproducto2">Cupcake Primaveral</p>
+            <img class="producto3 animacionProductos" src="../images/cupcakeperlas.jpeg">
+            <p class="parrafoproducto3">Cupcake con Decoración Personalizable</p>
+            <img class="producto4 animacionProductos" src="../images/cupcakeunicornio.jpeg">
+            <p class="parrafoproducto4">Cupcake Magic Unicorn</p>
+            <img class="producto5 animacionProductos" src="../images/cupcakeverdes.jpeg">
+            <p class="parrafoproducto5">Cupcake con Perlas</p>
+            <img class="producto6 animacionProductos" src="../images/cupcakechoco.jpeg">
+            <p class="parrafoproducto6">Cupcake Choco Box</p>            
         </section>
     </main>
     <!--footer-->
@@ -66,8 +68,9 @@
             <a href="https://www.instagram.com/donca.pasteleria/" target="_blank"><img src="../images/instagram.png" alt="logo de instagram, lleva a cuenta de instagram" height="20px"></a>
             <a href="https://api.whatsapp.com/send/?phone=541131530537&text&type=phone_number&app_absent=0" target="_blank"><img src="../images/whatsapp.png" alt="logo de Whatsapp, lleva a enviar mensaje" height="20px"></a>
             <a href="./contacto.html" target="_blank"><img src="../images/email.png" alt="logo de instagram, lleva a cuenta de instagram" height="20px"></a>
-        </div>    
+        </div>   
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script> 
 </body>
 </html>
