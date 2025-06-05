@@ -1,10 +1,9 @@
 @use "partials/variables";
+@use "partials/general";
 @use "partials/index";
-@use "partials/tortas";
-@use "partials/cookies";
-@use "partials/cupcakes";
-@use "partials/sobremi";
+@use "partials/productos";
 @use "partials/contacto";
+@use "partials/sobremi";
 
 
 @use "partials/mediaquery";

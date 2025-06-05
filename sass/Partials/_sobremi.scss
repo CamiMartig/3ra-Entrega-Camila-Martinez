@@ -1,19 +1,21 @@
+@use "variables" as*;
+
 .sobremi{
-    background-color: #f0cffa; 
+    background-color: $colorfondo; 
     display: flex; 
     text-align: center;
     align-items: center;
     justify-content: center;
     height: 600px;
     .sobremidisenio{
-    justify-content: center;
-    align-items: center;
-    width: 550px;
-    }
-    .sobremidisenio img{
-    height: 500px;
-    margin: 10px;
-    background-color: #e8b6f7;
-    border-radius: 30px;   
+        justify-content: center;
+        align-items: center;
+        width: 550px;
+            img{
+                height: 500px;
+                margin: 10px;
+                background-color: #e8b6f7;
+                border-radius: 30px;   
+            }
     }
 }
