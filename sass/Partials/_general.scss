@@ -47,13 +47,14 @@ header{
 }
 
 /*FOOTER*/
+.wavefooter{
+    height: 100px;
+    width: 100%;
+}
 .flexfooter{
     display: flex;
     background-color: $colorfondo;
-    justify-content: center;
-    height: 70px; 
-    border: solid;
-    border-color: #ecc7f8;
+    justify-content: center; 
     .diseñofooter{
         display: flex;
         flex-wrap: wrap;

@@ -47,13 +47,15 @@ header .menu li a {
 }
 
 /*FOOTER*/
+.wavefooter {
+  height: 100px;
+  width: 100%;
+}
+
 .flexfooter {
   display: flex;
   background-color: #f0cffa;
   justify-content: center;
-  height: 70px;
-  border: solid;
-  border-color: #ecc7f8;
 }
 .flexfooter .diseñofooter {
   display: flex;
@@ -157,6 +159,24 @@ header .menu li a {
   border-color: #f8b89a;
 }
 
+/*Animacion Productos*/
+.animacionProductos:hover {
+  transform: translate(130px, -130px);
+  transform: scale(1.5, 1.5);
+  animation-name: myAnimation;
+  animation-iteration-count: unset;
+  animation-duration: 0.5s;
+}
+
+@keyframes myAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*PAGINA CONTACTO*/
 .paginacontacto {
   height: 600px;
   background-color: #B7B1F2;
@@ -202,6 +222,7 @@ header .menu li a {
   margin-top: 50px;
 }
 
+/*PAGINA SOBRE MI*/
 .sobremi {
   background-color: #f0cffa;
   display: flex;
