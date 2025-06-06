@@ -1,11 +1,11 @@
-@use "partials/variables";
-@use "partials/contacto";
-@use "partials/general";
-@use "partials/index";
-@use "partials/productos";
-@use "partials/sobremi";
+@use "partials/variables" as*;
+@use "partials/contacto" as*;
+@use "partials/general" as*;
+@use "partials/productos" as*;
+@use "partials/sobremi" as*;
+@use "partials/index" as*;
 
-@use "partials/mediaquery";
+@use "partials/mediaquery" as*;
 
 
 

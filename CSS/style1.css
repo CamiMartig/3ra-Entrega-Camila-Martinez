@@ -120,28 +120,6 @@ header .menu-hamburguesa .bg-dark {
   align-content: center;
 }
 
-/*INDEX*/
-.mainindex {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  background-image: url(../images/CakeCupcake.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 700px;
-}
-.mainindex .textomainindex {
-  font-size: small;
-  text-align: center;
-}
-.mainindex .textomainindex h2 {
-  font-weight: normal;
-}
-.mainindex .textomainindex h3 {
-  font-weight: normal;
-}
-
 /*Pagina Producto*/
 /*Pagina Tortas*/
 .paginaproductos, .paginacupcakes, .paginacookies {
@@ -243,6 +221,28 @@ header .menu-hamburguesa .bg-dark {
   margin: 10px;
   background-color: #e8b6f7;
   border-radius: 30px;
+}
+
+/*INDEX*/
+.mainindex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: url(../images/CakeCupcake.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+}
+.mainindex .textomainindex {
+  font-size: small;
+  text-align: center;
+}
+.mainindex .textomainindex h2 {
+  font-weight: normal;
+}
+.mainindex .textomainindex h3 {
+  font-weight: normal;
 }
 
 /*NAV*/
