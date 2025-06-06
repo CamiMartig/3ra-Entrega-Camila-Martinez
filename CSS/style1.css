@@ -1,4 +1,50 @@
 @charset "UTF-8";
+/*PAGINA CONTACTO*/
+.paginacontacto {
+  height: 600px;
+  background-color: #B7B1F2;
+  padding: 2%;
+  display: flex;
+  gap: 100px;
+}
+.paginacontacto h2 {
+  font-weight: normal;
+}
+.paginacontacto .formulario {
+  padding: 20px;
+  margin-left: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.paginacontacto .formulario input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.paginacontacto .formulario textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 100px;
+}
+.paginacontacto .formulario button {
+  justify-items: center;
+}
+.paginacontacto .formulario label {
+  display: block;
+  margin-top: 10px;
+}
+.paginacontacto .fotocontacto {
+  width: 800px;
+  border-radius: 10px;
+  align-items: center;
+  margin-top: 50px;
+}
+
 /*Body*/
 * {
   margin: 0;
@@ -44,6 +90,9 @@ header .menu li {
 header .menu li a {
   text-decoration: none;
   color: black;
+}
+header .menu-hamburguesa .bg-dark {
+  background-color: #bd74c7;
 }
 
 /*FOOTER*/
@@ -176,52 +225,6 @@ header .menu li a {
     opacity: 1;
   }
 }
-/*PAGINA CONTACTO*/
-.paginacontacto {
-  height: 600px;
-  background-color: #B7B1F2;
-  padding: 2%;
-  display: flex;
-  gap: 100px;
-}
-.paginacontacto h2 {
-  font-weight: normal;
-}
-.paginacontacto .formulario {
-  padding: 20px;
-  margin-left: 50px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.paginacontacto .formulario input {
-  width: 100%;
-  padding: 8px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-.paginacontacto .formulario textarea {
-  width: 100%;
-  padding: 8px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  height: 100px;
-}
-.paginacontacto .formulario button {
-  justify-items: center;
-}
-.paginacontacto .formulario label {
-  display: block;
-  margin-top: 10px;
-}
-.paginacontacto .fotocontacto {
-  width: 800px;
-  border-radius: 10px;
-  align-items: center;
-  margin-top: 50px;
-}
-
 /*PAGINA SOBRE MI*/
 .sobremi {
   background-color: #f0cffa;
