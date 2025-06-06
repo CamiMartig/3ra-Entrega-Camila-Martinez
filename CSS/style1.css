@@ -225,7 +225,6 @@ header .menu-hamburguesa .bg-dark {
     opacity: 1;
   }
 }
-/*PAGINA SOBRE MI*/
 .sobremi {
   background-color: #f0cffa;
   display: flex;
@@ -246,7 +245,6 @@ header .menu-hamburguesa .bg-dark {
   border-radius: 30px;
 }
 
-/*MediaQ*/
 /*NAV*/
 @media (max-width: 600px) {
   header .menu {
