@@ -85,12 +85,19 @@ header .menu li a {
 .mainindex .textomainindex {
   font-size: small;
   text-align: center;
+  margin-top: 100px;
+}
+.mainindex .textomainindex h1 {
+  font-weight: 300;
+  font-size: xx-large;
 }
 .mainindex .textomainindex h2 {
-  font-weight: normal;
+  font-weight: 300;
+  font-size: xx-large;
 }
-.mainindex .textomainindex h3 {
-  font-weight: normal;
+
+.estilo-wave-main-index {
+  margin-bottom: -150px;
 }
 
 /*Pagina Producto*/
